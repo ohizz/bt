@@ -11,12 +11,6 @@
  font-weight: 700;
 }
 
-i {
-  width: 200px;
-  font-size: 10rem;
-  color: black;
-}
-
 
 a {
   text-decoration: none;
@@ -63,7 +57,8 @@ a:hover {
 }
 
 .budget p{
- /* font-family: 'Space Grotesk', sans-serif; */
+ font-family: 'Space Grotesk', sans-serif;
+ font-weight: 200;
 }
 
 .remain, .spent{
@@ -74,8 +69,8 @@ a:hover {
 }
 
 .acct p {
-  /* font-family: 'Space Grotesk', sans-serif;; */
-  /* font-weight: 500; */
+  font-family: 'Space Grotesk', sans-serif;;
+  font-weight: 200;
 }
 
 .budget input {
@@ -98,18 +93,21 @@ a:hover {
 
 p span {
  background-color: #454545;
- /* font-weight: 200; */
+ font-weight: 500;
  color: #fff;
  margin-left: .7rem;
  padding: 0 .2rem;
- /* font-family: 'Space Grotesk', sans-serif; */
+ font-family: 'Space Grotesk', sans-serif;
 }
 
 
 .expensesHeader {
- font-size: 1.2rem;
+ font-size: 1rem;
+ letter-spacing: -1px;
+ text-transform: uppercase;
  color: #333;
  font-family: 'Space Grotesk', sans-serif;
+ font-weight: 700;
 }
 
 .search {
