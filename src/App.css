@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
 
 *,*:after,*:before {
  margin: 0;
@@ -18,9 +21,13 @@ a:hover {
   color: cadetblue;
 }
 
+footer{
+  padding: 1.5rem 0 0 1rem;
+}
+
 .wrapper {
  padding-top: 1rem;
- width: 80%;
+ width: 90%;
  max-width: 750px;
  margin: 0 auto;
 }
@@ -28,6 +35,7 @@ a:hover {
 .wrapper  h1 {
   letter-spacing: -2px;
   padding: 0 .3rem;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .account {
@@ -76,17 +84,19 @@ a:hover {
 
 p span {
  background-color: #454545;
- font-weight: 600;
+ /* font-weight: 600; */
  color: #fff;
  margin-left: .7rem;
  padding: 0 .2rem;
+ font-family: 'Space Grotesk', sans-serif;
 }
 
 
 .expensesHeader {
- font-weight: 600;
- font-size: 1.2rem;
+ font-size: 1rem;
+ text-transform: uppercase;
  color: #333;
+ font-family: 'Space Grotesk', sans-serif;
 }
 
 .search {
@@ -175,6 +185,7 @@ form button {
  font-size: 1.5rem;
  letter-spacing: 2px;
  font-variant: small-caps;
+ font-family: 'Space Grotesk', sans-serif;
 }
 
 footer {
@@ -190,6 +201,7 @@ footer .chris, .ohis {
   color: #fff;
   padding: 0;
   margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .small {
