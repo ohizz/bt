@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:wght@200;500;700&family=Roboto:wght@100,300,500&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@200;500;700&display=swap');
 
 
 *,*:after,*:before {
@@ -36,6 +36,7 @@ a:hover {
 }
 
 .wrapper  h1 {
+  font-weight: 700;
   letter-spacing: -2px;
   padding: 0 .3rem;
   font-family: 'Space Grotesk', sans-serif;
@@ -44,36 +45,37 @@ a:hover {
 .account {
  margin-top: 1rem;
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
- grid-gap: 1rem;
+ grid-template-columns: repeat(auto-fit, minmax(13rem,1fr));
+ gap: 1rem;
 }
 
 .acct {
- padding: 1rem  4rem 1rem .5rem;
- border: 1px solid black;
- border-radius: 3px;
+ border: 2px solid black;
+ border-radius: 4px;
  height: 70px;
- /* color: blue; */
- font-weight: 700;
-}
-
-.spent {
-  padding: 1.3rem 4rem 1rem 0.5rem;
 }
 
 .budget {
- padding: 1.3rem 1rem;
  display: flex;
  justify-content: space-between;
  align-items: center;
+ padding-inline: 1rem;
 }
 
 .budget p{
- font-family: 'Space Grotesk', sans-serif;
+ /* font-family: 'Space Grotesk', sans-serif; */
 }
 
-.remain{
-  padding: 1.3rem .5rem;
+.remain, .spent{
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ padding-left: 1rem;
+}
+
+.acct p {
+  /* font-family: 'Space Grotesk', sans-serif;; */
+  /* font-weight: 500; */
 }
 
 .budget input {
@@ -82,30 +84,30 @@ a:hover {
 
 .budEdit {
  cursor: pointer;
- padding: .3rem .6rem;
+ padding: .2rem .6rem;
  border: 0;
  outline: 0;
- /* border: 1px solid #333; */
- border-radius: 2px;
- color: #fff;
- background: #333;
+ border: 2px solid #333;
+ /* border-radius: 1rem; */
+ color: black;
+ background: transparent;
  margin-left: 5px;
- height: 30px
+ height: 30px;
+ font-weight: 500;
 }
 
 p span {
  background-color: #454545;
- /* font-weight: 600; */
+ /* font-weight: 200; */
  color: #fff;
  margin-left: .7rem;
  padding: 0 .2rem;
- font-family: 'Space Grotesk', sans-serif;
+ /* font-family: 'Space Grotesk', sans-serif; */
 }
 
 
 .expensesHeader {
- font-size: 1rem;
- text-transform: uppercase;
+ font-size: 1.2rem;
  color: #333;
  font-family: 'Space Grotesk', sans-serif;
 }
@@ -176,7 +178,8 @@ input {
  border: 1px solid #333;
  margin: .6rem 0;
  padding: 0rem .4rem;
- font-size: 1rem;
+ font-size: .9rem;
+ font-weight: 400;
 }
 
 
@@ -190,29 +193,30 @@ form button {
  border: 0;
  outline: 0;
  height: 50px;
- width: 30%;
+ width: 20%;
  cursor: pointer;
  border: 1px solid #333;
- font-size: 1.5rem;
- letter-spacing: 2px;
- font-variant: small-caps;
+ font-size: 1rem;
  font-family: 'Space Grotesk', sans-serif;
 }
 
 footer {
-  text-align: center;
+ text-align: center;
  font-size: .8rem;
  margin-bottom: 1rem;
- color: blue;
- font-weight: 700;
+}
+
+footer p {
+  font-weight: 400;
 }
 
 footer .chris, .ohis {
   background-color: #454545;
-  font-weight: 600;
+  font-weight: 200;
   color: #fff;
   padding: 0;
   margin: 0;
+  font-weight: 700;
   font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -221,3 +225,16 @@ footer .chris, .ohis {
   color: black;
 }
 
+@media screen and (max-width: 40rem) {
+  .account{
+    /* grid-template-columns: repeat(auto-fit, minmax(100px,200px)); */
+  }
+
+  
+  form button{
+    height: 30px;
+ 
+    font-size: 1rem;
+  }
+  
+}
