@@ -11,6 +11,12 @@
  font-weight: 700;
 }
 
+i {
+  width: 200px;
+  font-size: 10rem;
+  color: black;
+}
+
 
 a {
   text-decoration: none;
