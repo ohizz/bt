@@ -27,8 +27,9 @@ const App = () => {
     <div className="formInput">
    <AddExpense/>
    </div>
+   <Footer/>
   </div>
-  <Footer/>
+
   </AppProvider>
  )
 }

@@ -21,9 +21,6 @@ a:hover {
   color: cadetblue;
 }
 
-footer{
-  padding: 1.5rem 0 0 1rem;
-}
 
 .wrapper {
  padding-top: 1rem;
@@ -63,6 +60,14 @@ footer{
  display: flex;
  justify-content: space-between;
  align-items: center;
+}
+
+.budget p{
+ font-family: 'Space Grotesk', sans-serif;
+}
+
+.remain{
+  padding: 1.3rem .5rem;
 }
 
 .budget input {
@@ -189,6 +194,7 @@ form button {
 }
 
 footer {
+  text-align: center;
  font-size: .8rem;
  margin-bottom: 1rem;
  color: blue;
@@ -205,7 +211,7 @@ footer .chris, .ohis {
 }
 
 .small {
+  font-family: 'Space Grotesk', sans-serif;
   color: black;
-  font-size: xx-small;
 }
 
